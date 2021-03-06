@@ -1,0 +1,48 @@
+.special-offers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d7d6c8;
+  padding-bottom: 3em;
+  margin-bottom: 1em;
+}
+
+.special-offers {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3em;
+}
+
+.special-offers-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special-offer-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.special-offers-card > h4 {
+  margin: 0;
+  margin-bottom: 0.7em;
+}
+
+.special-offers-card > p {
+  margin: auto 2em;
+  text-align: justify;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .special-offers {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 901px) {
+  .special-offers {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

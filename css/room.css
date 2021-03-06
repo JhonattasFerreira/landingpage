@@ -1,0 +1,39 @@
+.section-rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6em;
+}
+
+.rooms {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 20em;
+  row-gap: 4em;
+}
+
+.room-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.figcaption {
+  background-color: #d7d6c8;
+  height: 4em;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  font-size: 0.85em;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .rooms {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 901px) {
+  .rooms {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

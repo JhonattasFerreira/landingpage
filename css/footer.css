@@ -1,0 +1,11 @@
+.footer {
+  background-color: #171722;
+  height: 8em;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}

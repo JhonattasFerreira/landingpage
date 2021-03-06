@@ -1,0 +1,41 @@
+@import url(navigation.css);
+@import url(room.css);
+@import url(service.css);
+@import url(special-offer.css);
+@import url(review.css);
+@import url(footer.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: url("../images/hotel.jpg") center/cover no-repeat;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #b3b3d0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-top: 1.8em;
+  text-decoration: underline;
+}
+
+figure > img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.activated {
+  border-bottom: 0.2em solid;
+  color: white;
+}
