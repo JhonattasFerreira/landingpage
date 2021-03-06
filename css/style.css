@@ -5,10 +5,6 @@
 @import url(review.css);
 @import url(footer.css);
 
-html {
-  scroll-behavior: smooth;
-}
-
 header {
   background: url("../images/hotel.jpg") center/cover no-repeat;
   height: 100vh;
